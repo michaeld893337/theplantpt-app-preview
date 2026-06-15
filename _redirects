@@ -1,0 +1,4 @@
+# Expo Router web is a single-page app: serve index.html for every path so client-side
+# routes (e.g. /program, /workout/123) work on refresh and deep links.
+# Expo copies public/ into the web export, so this ships to dist/_redirects automatically.
+/*  /index.html  200
